@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ryans Tech Blog </title>
-<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Tech Blog</title>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
+
 <body>
+	<div class="wrapper">
+		<div class="hero">
+			<h1>Learning Java</h1>
+			<p>Some lessons I've learned so far</p>
+		</div>
+		
+		<div class="blog-posts">
+			<ul>
+				<li class="blog-post">
+					<img src="images/equals.jpg" width="100" height="100" alt="title">
+					<h2>= vs ==</h2>
+					<p>In Java there is distinction between one equal sign and a double equal sign.  Using the wrong one could cause your code to not compile or to not behave the way you expected it to.  When assigning a value to a variable, the equal sign is used.  For example when you say X = 5 this now means when you use X it contains the integer value 5.  The == is used as a test in boolean to see if something is true.  It will compare to objects to see whether they point to the same value. 
+</p>
+				</li>
+				
+				<li class="blog-post">
+					<img src="images/switch.jpg" width="100" height="100" alt="title">
+					<h2>Switch vs. if else</h2>
+					<p>Switch statements and if else statements seemingly accomplish the same task.  A switch statement allows an input to be tested to see if it matches a specific variable.  If it matches, a defined set of instructions can be executed.  An if/else statement is similar to a switch statement but it can be used for a broader set of values or a range.  If an input is looking for one specific value then a switch statement is allows the code to be easier to read.  If an input can be more complex or better defined, then an if/else statement must be used.  There is a lot of discussion that when possible, a switch statement is more efficient code.
+</p>
+				</li>
+				
+				<li class="blog-post">
+					<img src="images/return.jpg" width="100" height="100" alt="title">
+					<h2>Return and Void</h2>
+					<p>When a method has void declared in it, it tells the compiler to not return a value.  For example the method may change the value of a variable by multiplying it.  The desired outcome is simply to change the variable and not to return a value. A return statement still may be used in this case but it will simply be used to exit the method.  When a return is declared in a method, the program will run and a value will be returned.  The datatype of the  requested return must be declared such as int or float. </p>
+				</li>
+				
+				<li class="blog-post">
+					<img src="images/argument.jpg" width="100" height="100" alt="title">
+					<h2>Parameters and arguments</h2>
+					<p>Parameters are the variables inside of a method.  The parameter shows where the values go inside of the method.  They are the generic values in the program.  When writing the method, parameters are used to show which values are required to be input for the flow to be executed.  Arguments are the actual values that are passed into the methods.  The arguments go in place of the parameters and the programs is able to execute the functions.  The parameter’s datatype must be specified and when the arguments are passed into the method the arguments datatype must match the parameter’s datatype for the code to compile.
+</p>
+				</li>
+				
+				<li class="blog-post">
+					<img src="images/loop.jpg" width="100" height="100" alt="title">
+					<h2>For vs while vs do loops</h2>
+					<p>A for loop is a loop that repeats a statement as long as a condition is true.  It is often used to repeat a statement a set amount of times or an amount of times until the condition is no longer true.  If you want your code to run a designated amount times a for loop is useful.  A while loop will continuously execute a statement while a condition is true.  It constantly checks itself against a boolean value and continues to run until that value is false.  This is often used to keep a program running until a user wants to exit.  A do while loop runs the statement at least one time then starts to check for a boolean true value to continue to run.  
+</p>
+				</li>
+			</ul>
+		</div>
+	</div>
 
 
 

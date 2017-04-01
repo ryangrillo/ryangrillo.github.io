@@ -1,3 +1,56 @@
 body {
-	background-color: red;
+	background-color: burlywood;
+	font-family: 'Helvetica', Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.wrapper {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Hero */
+.hero {
+	background-color: maroon;
+	color: oldlace;
+	text-align: center;
+	margin-bottom: 93px;
+	height: 200px;
+	font-size: 20px;
+}
+
+.hero h1 {
+	margin: 0;
+}
+
+
+/* Blog Post List */
+.blog-post img {
+	float: left;
+	margin-right: 12px;
+}
+
+.blog-post {
+	clear: both;
+	margin-bottom: 40px;
+}
+
+.blog-post p {
+	margin-left: 110px;
+	margin-top: 0;
+}
+.blog-post h2 {
+	margin-bottom: 0px;
 }
